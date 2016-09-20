@@ -1,0 +1,119 @@
+body {
+    background-color: #fbfaf9;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    font-family: Calibri, sans-serif;
+    font-weight: normal;
+    background-color: #fbfaf9;
+    margin-top: 20px;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-size: 18px;
+    color: #bdbdbd;
+    margin: 0px;
+    padding: 0px;
+    margin-bottom: 20px;
+}
+
+.numberCircle {
+    border-radius: 50%;
+    width: 22px;
+    height: 22px;
+    padding: 0px;
+    border: 1px solid #788bbb;
+    color: #788bbb;
+    text-align: center;
+    float: left;
+}
+
+.active {
+    color: #bdbdbd;
+    background-color: #788bbb;
+}
+
+label {
+    text-transform: uppercase;
+    color: #cdcdcd;
+    font-size: 14px;
+    width: 40%
+}
+
+input {
+    background-color: transparent;
+    border: 2px solid #ded7d2;
+    border-radius: 5px;
+    padding: 5px 10px;
+    width: 50%;
+}
+
+select {
+    width: 100%;
+    padding: 6px;
+    padding-left: 15px;
+    border: 2px solid #ded7d2;
+    border-radius: 5px;
+    background-color: transparent;
+}
+
+.nick, .accnum, .namecard, .exp, .cvv {
+    margin-bottom: 10px;
+}
+
+#cvv, #month {
+    width: 10%;
+}
+
+#year {
+    width: 20%;
+}
+
+.btn {
+    margin: 50px 5px 0 5px;
+    width: 40%;
+    padding: 12px 12px;
+}
+
+#cancel {
+    background-color: transparent;
+    border: 2px solid #ded7d2;
+    border-radius: 5px;
+    color: #ded7d2;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+#next {
+    background-color: #80b942;
+    border-color: #80b942;
+    font-size: 14px;
+    color: #c5dd9d;
+    text-transform: uppercase;
+}
+
+@media (max-width: 768px) {
+    input, label {
+        width:100%
+    }
+
+    #cvv, #month {
+        width: 30%;
+    }
+
+    #year {
+        width: 50%;
+    }
+
+    .btn {
+        width: 100%;
+    }
+
+    #next {
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+}

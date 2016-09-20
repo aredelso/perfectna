@@ -1,0 +1,122 @@
+body {
+    background-color: #f5f4f5;
+    padding: 0;
+    margin: 0;
+}
+
+.container-fluid {
+    margin: 5px;
+    padding: 0px;
+    background-color: #f5f4f5;
+    font-family: Calibri, sans-serif;
+    font-weight: normal;
+}
+
+.payments {
+    background-color: #fffffe;
+    padding: 0px;
+    margin: 0px;
+    border: none;
+    outline: none;
+    border-style: hidden;
+}
+
+.table-striped>tbody>tr:nth-of-type(even) {
+    background-color: #fffffe
+}
+
+.table {
+    margin: 0px;
+}
+
+.row {
+    margin: 0;
+}
+
+
+.table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
+    padding: 20px;
+}
+
+.table>tbody>tr>td {
+    padding-bottom: 20px;
+}
+
+thead {
+    background-color: #fffffe;
+}
+
+thead > tr > th {
+    background-color: #fffffe;
+    border: none !important;
+    outline: none;
+    border-style: hidden;
+    text-transform: uppercase;
+    color: #cdcdcd;
+    font-size: 12px;
+    padding: 20px;
+    margin: 20px;
+}
+
+tbody {
+}
+
+.table>tbody>tr>td {
+    border: none;
+}
+
+.flex-end {
+    justify-content: flex-end;
+}
+
+
+h1 {
+    text-transform: uppercase;
+    color: #a9a9a9;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 0 !important;
+    margin: 10px;
+}
+
+h2 {
+    color: #a9a9a9;
+    font-size: 14px;
+    padding: 0 !important;
+    margin: 0 !important;
+    margin-left: 10px !important;
+}
+
+.vertical-align {
+    display: flex;
+    align-items: center;
+}
+
+.icons {
+    margin-right: 20px;
+}
+
+.center {
+    justify-content: center;
+}
+
+.glyphicon {
+    margin: 0 5px;
+    text-align: right;
+}
+
+.add-payment {
+    margin-top: 12px;
+    margin-right: 20px;
+    float: right;
+}
+
+.add-payment button {
+    text-transform: uppercase;
+    margin: 20px 0px 20px 83px;
+    background-color: #80b942;
+    border-color: #80b942;
+    font-size: 11px;
+    color: #c5dd9d;
+    font-weight: bold;
+}

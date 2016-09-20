@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <link rel="stylesheet" href="trading_accounts.css" type="text/css">
+    </head>
+    <body>
+        <div class="container-fluid">
+            <div class="table-responsive accounts">
+                <table class="table col-xs-10">
+                    <thead>
+                        <tr>
+                            <th class="col-xs-4">account number</th>
+                            <th class="col-xs-3">password</th>
+                            <th>status</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td colspan="4">
+                                <div class="row vertical-align">
+                                    <h1 class="col-xs-10">primary trading account</h1>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="row vertical-align">
+                                    <label>1.</label>
+                                    <input type="text" class="" id="primary_num" placeholder="Enter Primary Account Number">
+                                </div>
+                            </td>
+                            <td>
+                                <div class="row vertical-align">
+                                    <input type="text" class="col-xs-10" id="primary_pass" placeholder="Enter Primary Password">
+                                </div>
+                            </td>
+                            <td>
+                                <div class="status row vertical-align">
+                                    <h2 class="col-xs-12">No account</h2>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="row vertical-align">
+                                    <button class="btn btn-success col-md-8 col-xs-12" id="connect">connect account</button>
+                                </div>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="new-account vertical-align col-lg-3 col-lg-offset-9 col-md-4 col-md-offset-8 col-sm-6 col-sm-offset-6 col-xs-12">
+                <label class="col-xs-6">Don't have an account?</label>
+                <button class="btn btn-primary col-xs-6">open new account</button>
+            </div>
+        </div>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    </body>
+</html>

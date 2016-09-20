@@ -1,0 +1,113 @@
+.container {
+    padding: 20px;
+}
+
+img {
+    text-align: center;
+    width: 20%;
+    margin-left: 10%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1, h2, label, .glyphicon {
+    margin: 0;
+    color: #a4a4a4;
+    font-weight: normal;
+}
+
+p {
+    text-align: center;
+    margin: 0;
+}
+
+.blue {
+    color: #8698d0;
+}
+
+h1 {
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+h2 {
+    text-transform: uppercase;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.spacing {
+    margin-bottom: 10px;
+}
+
+label {
+    text-transform: none;
+    font-size: 16px;
+}
+
+input, textarea {
+    background-color: transparent;
+    border: 2px solid #ded7d2;
+    border-radius: 5px;
+    padding: 5px 10px;
+    width: 50%;
+}
+
+textarea {
+    margin-bottom: 60px;
+}
+
+.small-img {
+    width: 40px;
+    text-align: left;
+    margin: 0;
+}
+
+.btn {
+    padding: 12px 6px;
+}
+
+.collection {
+    margin-bottom: 40px;
+}
+
+.checkbox {
+    float:left;
+}
+
+input[type=checkbox] {
+    margin-left: 8.33333%;
+}
+
+#cancel {
+    background-color: transparent;
+    border: 2px solid #ded7d2;
+    border-radius: 5px;
+    color: #ded7d2;
+    font-size: 14px;
+    text-transform: uppercase;
+
+}
+
+#activate {
+    background-color: #80b942;
+    border-color: #80b942;
+    font-size: 14px;
+    color: #c5dd9d;
+    text-transform: uppercase;
+}
+
+
+
+@media (min-width: 768px) {
+
+    #cancel {
+        margin-right: 5px;
+    }
+
+    #activate {
+        margin-left: 5px;
+    }
+}

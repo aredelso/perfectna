@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="leader_status.css" type="text/css">
+</head>
+<body>
+    <div class="container-fluid">
+            <div class="col-md-8">
+                <div class="row">
+                    <div class="col-md-12 box">
+                        <div class="row">
+                            <div class="col-xs-2">
+                                <img class="img-circle" src="user.png" />
+                                <p>GSoros</p>
+                                <p class="blue">(GSOR)</p>
+                            </div>
+                            <div class="col-xs-10">
+                                <div class="row spacing">
+                                    <h1 class="col-xs-12">echo leader status</h1>
+                                </div>
+                                <div class="row spacing">
+                                    <label class="col-md-4 col-xs-12">current status</label>
+                                    <h2 class="col-md-8" id="candidate">candidate</h2>
+                                </div>
+                                <div class="row spacing">
+                                    <label class="col-xs-4 col-xs-12">change status</label>
+                                    <div class="btn-group col-md-8 col-xs-12">
+                                        <button type="button" class="btn btn-danger col-xs-4">Candidate</button>
+                                        <button type="button" class="btn col-xs-4 inactive">Sandbox</button>
+                                        <button type="button" class="btn col-xs-4 inactive">Leader</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-12 box status">
+                        <div class="row">
+                            <h1 class="col-xs-6">account information</h1>
+                            <label class="col-xs-3 text-center">status</label>
+                        </div>
+                        <div class="row even">
+                            <label class="col-md-4 col-xs-3">real account</label>
+                            <h2 class="col-md-2 col-xs-3 text-center" id="realacc">0123456789</h2>
+                            <h2 class="col-xs-3 text-center red">not view only</h2>
+                        </div>
+                        <div class="row">
+                            <label class="col-xs-10">leader messenger account</label>
+                            <span class="glyphicon glyphicon-pencil"></span>
+                        </div>
+                        <div class="row even">
+                            <label class="col-xs-10">leader collection account</label>
+                            <span class="glyphicon glyphicon-pencil"></span>
+                        </div>
+                        <div class="row">
+                            <label class="col-md-4 col-xs-3">minimum echo account</label>
+                            <h2 class=" col-md-2 col-xs-3 text-center" id="realacc">$10,000</h2>
+                            <div class="col-xs-4"></div>
+                            <span class="glyphicon glyphicon-pencil"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-xs-12">
+                <div class="row">
+                    <div class="box contact-info">
+                        <div class="row">
+                            <h1 class="col-xs-12 spacing">contact information</h1>
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-1 spacing">
+                                <span class="glyphicon glyphicon-user"></span>
+                            </div>
+                            <label class="col-xs-4">first name</label>
+                            <h2 id="info">Gabriel Soros</h2>
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-1 spacing">
+                                <span class="glyphicon glyphicon-earphone"></span>
+                            </div>
+                            <label class="col-xs-4">phone 1</label>
+                            <h2 id="info">1234567890</h2>
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-1">
+                            </div>
+                            <label class="col-xs-4 spacing">phone 2</label>
+                            <h2 id="info">1234567890</h2>
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-1 spacing">
+                                <span class="glyphicon glyphicon-envelope"></span>
+                            </div>
+                            <label class="col-xs-4">email</label>
+                            <a>gsoros@gmail.com</a>
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-1 spacing">
+                                <span class="glyphicon glyphicon-globe"></span>
+                            </div>
+                            <label class="col-xs-4">website</label>
+                            <a>www.gsoros.com</a>
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-1 spacing">
+                                <span class="glyphicon glyphicon-home"></span>
+                            </div>
+                            <label class="col-xs-4">address</label>
+                            <h2 id="info">254 Santa Fe Dr.</h2>
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-1">
+                            </div>
+                            <label class="col-xs-4 spacing">address 2</label>
+                            <h2 id="info">suite 125</h2>
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-1">
+                            </div>
+                            <label class="col-xs-4 spacing">city</label>
+                            <h2 id="info">culver</h2>
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-1">
+                            </div>
+                            <label class="col-xs-4 spacing">state</label>
+                            <h2 id="info">california</h2>
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-1">
+                            </div>
+                            <label class="col-xs-4 spacing">country</label>
+                            <h2 id="info">united states</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </div>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</body>
+</html>

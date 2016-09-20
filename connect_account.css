@@ -1,0 +1,188 @@
+body {
+    background-color: #f5f4f5;
+    padding: 0;
+    margin: 0;
+}
+
+.container-fluid {
+    margin: 5px;
+    padding: 0px;
+    background-color: #f5f4f5;
+    font-family: Calibri, sans-serif;
+    font-weight: normal;
+}
+
+.accounts {
+    background-color: #fffffe;
+    padding: 0px;
+    margin: 0px;
+    border: none;
+    outline: none;
+    border-style: hidden;
+}
+
+.table {
+    margin: 0px;
+}
+
+.row {
+    margin: 0;
+}
+
+.box {
+    background-color: #fffffe;
+    margin-bottom: 10px;
+    padding: 20px;
+}
+
+.table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
+    padding: 20px;
+}
+
+.heading {
+    padding: 10px 0px 0px 10px !important;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.heading1 {
+    margin: 0;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+#candidate, #sandbox, #leader {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fffffe;
+    padding: 5px;
+    text-align: center;
+    margin: 0px 5px;
+}
+
+#candidate, #sandbox {
+    background-color: #c5c9cb;
+}
+
+#leader {
+    background-color: #788bbb;
+}
+
+.table>tbody>tr>td {
+    padding-bottom: 20px;
+}
+
+thead > tr > th {
+    border: none !important;
+    outline: none;
+    border-style: hidden;
+    text-transform: uppercase;
+    color: #cdcdcd;
+    font-size: 12px;
+    padding: 20px;
+    margin: 20px;
+}
+
+tbody {
+    background-color: #fafaf9;
+}
+
+.table>tbody>tr>td {
+    border: none;
+}
+
+h1 {
+    text-transform: uppercase;
+    color: #a9a9a9;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 0 !important;
+    margin: 10px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+h2 {
+    color: #a9a9a9;
+    font-size: 14px;
+    font-style: italic;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.connected>h2 {
+    color: #80b942;
+    font-size: 14px;
+    font-style: normal;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.circle-check {
+    color: #80b942;
+}
+
+label {
+    text-transform: uppercase;
+    color: #a9a9a9;
+    font-size: 14px;
+    margin-left: 10px;
+    float: left;
+}
+
+.broker {
+    text-transform: none;
+    font-weight: normal;
+    font-style: italic;
+}
+
+input {
+    background-color: transparent;
+    border: 2px solid #ded7d2;
+    border-radius: 5px;
+    width: 25%;
+    padding: 5px 10px;
+    margin-left: 10px;
+}
+
+#connect {
+    text-transform: uppercase;
+    background-color: #80b942;
+    border-color: #80b942;
+    font-size: 14px;
+    color: #c5dd9d;
+    width: 100%;
+}
+
+#primary_num {
+    width: 80%;
+}
+
+.new-account {
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.new-account label {
+    color: #a9a9a9;
+    font-size: 14px;
+    font-style: italic;
+    padding: 0 !important;
+    margin: 0 !important;
+    text-transform: none;
+    font-weight: normal;
+    text-align: right;
+    padding-right: 10px !important;
+}
+
+.new-account button {
+    text-transform: uppercase;
+}
+
+.vertical-align {
+    display: flex;
+    align-items: center;
+}

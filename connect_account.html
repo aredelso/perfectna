@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <link rel="stylesheet" href="connect_account.css" type="text/css">
+    </head>
+    <body>
+        <div class="container-fluid">
+            <div class="box">
+                <div class="row">
+                    <h1 class="heading1 col-xs-4">echo leader status</h1>
+                    <a class="col-xs-2" id="candidate">candidate</a>
+                    <a class="col-xs-2" id="sandbox">sandbox</a>
+                    <a class="col-xs-2" id="leader">leader</a>
+                </div>
+            </div>
+            <div class="table-responsive accounts">
+                <table class="table col-xs-10">
+                    <h1 class="heading">echo leader accounts</h1>
+                    <thead>
+                        <tr>
+                            <th>account number</th>
+                            <th class="text-center">password</th>
+                            <th>status</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td colspan="4">
+                                <div class="row vertical-align">
+                                    <h1>primary trading account</h1>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="row vertical-align">
+                                    <label>1.</label>
+                                    <input type="text" id="primary_num">
+                                </div>
+                            </td>
+                            <td>
+                                <div class="row vertical-align">
+                                    <input type="text" class="col-xs-10 col-xs-offset-1" id="primary_pass">
+                                </div>
+                            </td>
+                            <td>
+                                <div class="status row vertical-align">
+                                    <h2 class="col-xs-12">No account</h2>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="row vertical-align">
+                                    <button class="btn btn-success col-md-8 col-xs-12" id="connect">connect account</button>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="4">
+                                <div class="row vertical-align">
+                                    <h1 class="col-xs-10">leader messenger account</h1>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="row vertical-align">
+                                    <label>2. 8912345678</br><span class="broker">Broker approval required for this account</span></label>
+                                    <h3></h3>
+                                </div>
+                            </td>
+                            <td>
+                            </td>
+                            <td>
+                                <div class="connected row vertical-align text-center">
+                                    <h2><span class="glyphicon glyphicon-ok-sign circle-check" aria-hidden="true"></span>
+                                </br>
+                                    Connected</h2>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="row vertical-align">
+                                </div>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    </body>
+</html>
